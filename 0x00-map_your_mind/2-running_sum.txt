@@ -1,0 +1,20 @@
+PROGRAM Running Sum
+SET total = 0        
+
+WHILE add_another_number ==True 
+	number = INPUT('enter a number')
+	total = total + number
+
+	answer = INPUT('Do you want to add another number?')
+	IF answer == 'Y'
+	   add_another_number = True
+	ELSE 
+	   add_another_number = False
+	THEN	
+	IF number <= -1 BREAK
+	ELSE
+	OUTPUT total += number
+	
+OUTPUT = total
+
+END PROGRAM  
