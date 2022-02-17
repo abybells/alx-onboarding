@@ -1,0 +1,7 @@
+n = INPUT("Enter a number") 
+sum = 0
+sum-squares (n)
+FOR i in range(1, n+1)
+    sum += (i * i)
+RETURN sum
+OUTPUT = sum-squares(n)
